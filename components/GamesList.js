@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "../components/Image";
 import useSWR from "swr";
 import { EXCLUED_GAMES } from "../lib/constants";
 
