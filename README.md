@@ -51,3 +51,40 @@ https://tailwindcss.com/blog/automatic-class-sorting-with-prettier
 ```bash
 npm install -D prettier prettier-plugin-tailwindcss
 ```
+
+## 4. Install SWR
+
+https://swr.vercel.app/zh-CN/docs/getting-started
+
+```bash
+npm install swr
+```
+
+## 5. Hide Scrollbar
+
+https://www.npmjs.com/package/tailwind-scrollbar-hide
+
+```bash
+npm install tailwind-scrollbar-hide
+```
+
+Add the plugin to your `tailwind.config.js` file:
+
+```javascript
+// tailwind.config.js
+module.exports = {
+  theme: {
+    // ...
+  },
+  plugins: [
+    require("tailwind-scrollbar-hide"),
+    // ...
+  ],
+};
+```
+
+## 6. Install Sharp
+
+```bash
+npm i sharp
+```

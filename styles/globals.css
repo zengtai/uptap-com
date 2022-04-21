@@ -1,3 +1,66 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#Home h2 {
+  @apply bg-[#c01733] p-4 text-center text-3xl font-bold uppercase text-white;
+}
+
+#Welcome p {
+  @apply mb-3;
+}
+
+#Welcome h1 {
+  font-family: "Caveat";
+}
+
+#Welcome h1 {
+  @apply text-3xl;
+}
+
+#Contact form {
+  @apply flex flex-col justify-center py-8;
+}
+
+#Contact .row {
+  @apply relative flex flex-col items-start justify-center px-4 py-2 md:flex-row;
+}
+
+#Contact label {
+  @apply inline-block w-full after:ml-2 after:text-[#c01733] after:content-['*'] md:w-36;
+}
+
+#Contact input {
+  @apply block w-full border-2 border-gray-400 p-2 focus:border-[#c01733] active:border-[#c01733] md:mx-4 xl:w-96;
+}
+
+#Contact button {
+  @apply w-full max-w-md rounded-full bg-[#c01733] px-20 py-4 text-xl font-bold uppercase text-white;
+}
+
+#PrivacyPolicy {
+  @apply text-sm text-gray-700;
+}
+
+#PrivacyPolicy h1 {
+  @apply mb-3 text-3xl font-bold;
+}
+
+#PrivacyPolicy h2 {
+  @apply my-2 text-xl font-bold;
+}
+
+#PrivacyPolicy h3 {
+  @apply my-2 text-lg font-bold;
+}
+#PrivacyPolicy h4 {
+  @apply my-2 font-bold;
+}
+
+#PrivacyPolicy p {
+  @apply mb-2;
+}
+
+#PrivacyPolicy a {
+  @apply underline;
+}
