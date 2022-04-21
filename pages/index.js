@@ -22,10 +22,10 @@ export default function Home({ data }) {
           type="image/png"
         />
       </Head>
-      <div className="relative z-0 overflow-hidden before:bg-white md:before:absolute md:before:-bottom-0 md:before:-z-20 md:before:h-16 md:before:w-full">
+      <div className="relative z-0 overflow-hidden md:before:absolute md:before:left-1/2 md:before:-bottom-0 md:before:-z-20 md:before:h-16 md:before:w-full md:before:bg-white">
         <div
           id="Welcome"
-          className="container relative mx-auto bg-white p-8 text-gray-800 before:absolute before:-left-1/2 before:top-0 before:-z-10 before:h-full before:translate-x-1/2 before:bg-white md:bg-transparent md:before:w-full md:after:absolute md:after:-left-1/2 md:after:top-14 md:after:-z-20 md:after:h-full md:after:w-full md:after:translate-x-1/2 md:after:-skew-x-[45deg] md:after:bg-black/10 xl:px-44 xl:text-2xl xl:before:-skew-x-[45deg]"
+          className="container relative mx-auto bg-white p-8 text-gray-800 before:absolute before:-left-1/2 before:top-0 before:-z-10 before:h-full before:translate-x-1/2 before:bg-white md:bg-transparent md:before:w-full md:after:absolute md:after:-left-1/2 md:after:-bottom-32 md:after:-z-20 md:after:h-[130%] md:after:w-full md:after:translate-x-1/2 md:after:-skew-x-[45deg] md:after:bg-black/10 xl:px-44 xl:text-2xl xl:before:-skew-x-[45deg]"
         >
           <h1>Welcome to UpTap</h1>
           <div className="relative mt-3 mb-6">
@@ -48,7 +48,7 @@ export default function Home({ data }) {
       </div>
       <h2
         name="games"
-        className="relative z-0 overflow-hidden md:after:absolute md:after:-right-full md:after:top-0 md:after:-z-0 md:after:h-[110%] md:after:w-full md:after:-translate-x-[13rem] md:after:-skew-x-[45deg] md:after:bg-black/20"
+        className="relative z-0 overflow-hidden md:after:absolute md:after:-right-full md:after:top-0 md:after:-z-0 md:after:h-[110%] md:after:w-full md:after:-translate-x-[25rem] md:after:-skew-x-[45deg] md:after:bg-black/20"
       >
         Our Games
       </h2>
