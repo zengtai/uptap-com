@@ -15,14 +15,14 @@ export default function GamesList() {
   let games = data.gamelist;
 
   games = games.filter((game) => !EXCLUED_GAMES.includes(game.name));
-  games.sort((a, b) => (a.time < b.time ? 1 : -1));
+  games.sort((a, b) => (new Date(a.time) < new Date(b.time) ? 1 : -1));
 
   return (
     <ul className="container mx-auto grid grid-cols-3 gap-1 p-1 scrollbar-hide hover:overflow-y-scroll md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12">
       {games.map((game) => (
         <li key={game.id} className="">
           <Image
-            src={game.icon}
+            src={`https://cdn.iwantalipstick.com/gameicon2/png/${game.name}.png`}
             width={100}
             height={100}
             alt={game.name}
