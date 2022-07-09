@@ -22,7 +22,9 @@ export default function GamesList() {
       {games.map((game) => (
         <li key={game.id} className="">
           <Image
-            src={`https://cdn.iwantalipstick.com/gameicon2/png/${game.name}.png`}
+            src={`https://cdn.iwantalipstick.com/gameicon2/png/${
+              game.name == "SharkisComing" ? `SharkIsComing` : game.name
+            }.png`}
             width={100}
             height={100}
             alt={game.name}
