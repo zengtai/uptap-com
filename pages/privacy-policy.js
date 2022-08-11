@@ -7,7 +7,7 @@ export default function PrivacyPolicy(params) {
           <p>{`Effective date: December 24, 2018`}</p>
 
           <p>{`
-          Uptap ("us", "we", or "our") operates the www.uptap.com website (the
+          Future Fun ("us", "we", or "our") operates the www.playgames.asia website (the
           "Service").
         `}</p>
 
@@ -22,7 +22,7 @@ export default function PrivacyPolicy(params) {
           Service, you agree to the collection and use of information in
           accordance with this policy. Unless otherwise defined in this Privacy
           Policy, terms used in this Privacy Policy have the same meanings as in
-          our Terms and Conditions, accessible from www.uptap.com.
+          our Terms and Conditions, accessible from www.playgames.asia.
         `}</p>
 
           <h2>Information Collection And Use</h2>
@@ -95,7 +95,7 @@ export default function PrivacyPolicy(params) {
 
           <h2>Use of Data</h2>
 
-          <p>{`Uptap uses the collected data for various purposes:`}</p>
+          <p>{`Future Fun uses the collected data for various purposes:`}</p>
           <ul>
             <li>To provide and maintain the Service</li>
             <li>To notify you about changes to our Service</li>
@@ -129,7 +129,7 @@ export default function PrivacyPolicy(params) {
           such information represents your agreement to that transfer.
         `}</p>
           <p>{`
-          Uptap will take all steps reasonably necessary to ensure that your
+          Future Fun will take all steps reasonably necessary to ensure that your
           data is treated securely and in accordance with this Privacy Policy
           and no transfer of your Personal Data will take place to an
           organization or a country unless there are adequate controls in place
@@ -140,12 +140,12 @@ export default function PrivacyPolicy(params) {
 
           <h3>Legal Requirements</h3>
           <p>{`
-          Uptap may disclose your Personal Data in the good faith belief that
+          Future Fun may disclose your Personal Data in the good faith belief that
           such action is necessary to:
         `}</p>
           <ul>
             <li>To comply with a legal obligation</li>
-            <li>To protect and defend the rights or property of Uptap</li>
+            <li>To protect and defend the rights or property of Future Fun</li>
             <li>
               To prevent or investigate possible wrongdoing in connection with
               the Service
@@ -261,7 +261,7 @@ export default function PrivacyPolicy(params) {
           us:
         `}</p>
           <ul>
-            <li>By email: contact@uptap.com</li>
+            <li>By email: contact@playgames.asia</li>
           </ul>
         </div>
       </div>

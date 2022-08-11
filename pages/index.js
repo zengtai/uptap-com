@@ -6,7 +6,7 @@ export default function Home({ data }) {
   return (
     <div id="Home">
       <Head>
-        <title>UpTap</title>
+        <title>FUTURE FUN</title>
         <meta
           name="description"
           content="Home to some of the most addictive Hyper Casual games on the market."
@@ -27,20 +27,20 @@ export default function Home({ data }) {
           id="Welcome"
           className="container relative mx-auto bg-white p-8 text-gray-800 before:absolute before:-left-1/2 before:top-0 before:-z-10 before:h-full before:translate-x-1/2 before:bg-white md:bg-transparent md:before:w-full md:after:absolute md:after:-left-1/2 md:after:-bottom-32 md:after:-z-20 md:after:h-[130%] md:after:w-full md:after:translate-x-1/2 md:after:-skew-x-[45deg] md:after:bg-black/10 xl:px-44 xl:text-2xl xl:before:-skew-x-[45deg]"
         >
-          <h1>Welcome to UpTap</h1>
+          <h1>Welcome to FUTURE FUN</h1>
           <div className="relative mt-3 mb-6">
             <Image
               src={`/images/brand/logo.svg`}
               width={306}
               height={60}
-              alt={`UpTap`}
+              alt={`FUTURE FUN`}
             />
           </div>
           <p className="font-bold text-[#c01733]">
             Home to some of the most addictive Hyper Casual games on the market.
           </p>
           <p>
-            UpTap is passionate about creating the best hyper causal games for
+            FUTURE FUN is passionate about creating the best hyper causal games for
             people to enjoy, no matter who they are.
           </p>
           <p>{`Once you start to Tap, you aren't gonna want to stop.`}</p>

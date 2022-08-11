@@ -11,7 +11,7 @@ export default function Navbar(params) {
               src={`/images/brand/logo.svg`}
               width={153}
               height={30}
-              alt={`UpTap`}
+              alt={`FUTURE FUN`}
             />
           </a>
         </Link>
