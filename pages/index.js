@@ -3,7 +3,7 @@ import Image from "../components/Image";
 import GamesList from "../components/GamesList";
 
 export default function Home({ data }) {
-  //
+  // 重新推送
   return (
     <div id="Home">
       <Head>
