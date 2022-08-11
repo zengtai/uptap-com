@@ -3,6 +3,7 @@ import Image from "../components/Image";
 import GamesList from "../components/GamesList";
 
 export default function Home({ data }) {
+  //
   return (
     <div id="Home">
       <Head>
@@ -40,8 +41,8 @@ export default function Home({ data }) {
             Home to some of the most addictive Hyper Casual games on the market.
           </p>
           <p>
-            FUTURE FUN is passionate about creating the best hyper causal games for
-            people to enjoy, no matter who they are.
+            FUTURE FUN is passionate about creating the best hyper causal games
+            for people to enjoy, no matter who they are.
           </p>
           <p>{`Once you start to Tap, you aren't gonna want to stop.`}</p>
         </div>
