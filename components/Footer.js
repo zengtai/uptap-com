@@ -7,7 +7,7 @@ export default function Footer(params) {
         <div className="container mx-auto flex flex-col-reverse justify-between md:flex-row">
           <div className="flex flex-col gap-1">
             <p>
-              &copy; {new Date().getFullYear()} FUTURE FUN PTE,LTD. All Rights
+              &copy; {new Date().getFullYear()} FUTURE FUN PTE, LTD. All Rights
               Reserved.
             </p>
             <address>
