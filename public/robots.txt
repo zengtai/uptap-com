@@ -6,4 +6,5 @@ Allow: /
 Host: https://www.supereasygame.com
 
 Disallow: web.uptap.com
+Disallow: uptapapi.uptap.com
 Disallow: /doudou/
