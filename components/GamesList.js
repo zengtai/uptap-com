@@ -5,11 +5,11 @@ import { EXCLUED_GAMES } from "../lib/constants";
 export default function GamesList() {
   const fetcher = (...args) => fetch(...args).then((res) => res.json());
   const { data, error } = useSWR(
-    `https://uptapapi.uptap.com/h5Game/?type=GameList&platform=uptap&token=dXB0YXBnYW1l572R56uZ55So`,
+    `https://uptapapi.uptap.com/h5Game/?type=GameList&platform=uptapgame0120&token=dXB0YXBnYW1l572R56uZ55So`,
     fetcher
   );
 
-  if (error) return <div className="p-4 text-center">Failed to load</div>;
+  if (error) return <div className="p-4 text-center">Failed to load, please refresh the page to try again.</div>;
   if (!data) return <div className="p-4 text-center">Loading...</div>;
 
   let games = data.gamelist;
