@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "../components/Image";
 import GamesList from "../components/GamesList";
+import Logo from "../public/images/brand/logo.svg";
 
 export default function Home({ data }) {
   return (
@@ -30,20 +31,19 @@ export default function Home({ data }) {
           <h1>Welcome to UpTap</h1>
           <div className="relative mt-3 mb-6">
             <Image
-              src={`/images/brand/logo.svg`}
-              width={306}
-              height={60}
-              alt={`UpTap`}
+              src={ Logo }
+              width={ 306 }
+              height={ 60 }
+              alt={ `UpTap` }
             />
           </div>
           <p className="font-bold text-[#c01733]">
             Home to some of the most addictive Hyper Casual games on the market.
           </p>
           <p>
-            UpTap is passionate about creating the best hyper causal games for
-            people to enjoy, no matter who they are.
+            UpTap is passionate about creating the best hyper causal games for people to enjoy, no matter who they are.
           </p>
-          <p>{`Once you start to Tap, you aren't gonna want to stop.`}</p>
+          <p>{ `Once you start to Tap, you aren't gonna want to stop.` }</p>
         </div>
       </div>
       <h2
@@ -85,3 +85,4 @@ export default function Home({ data }) {
     </div>
   );
 }
+
